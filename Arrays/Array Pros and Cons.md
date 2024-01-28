@@ -40,4 +40,5 @@ Here's a detailed look at their pros and cons:
 
 6. **Homogeneous Data**: Since arrays store elements of the same data type, they are suitable when dealing with a homogeneous dataset.
 
-In summary, arrays are a great choice for certain scenarios, particularly when dealing with a known, fixed number of elements and requiring fast access by index. However, their limitations in size flexibility and inefficiency in certain operations (like insertions and deletions in the middle) might lead one to choose other data structures, such as linked lists or dynamic arrays, for more complex or size-variable data storage needs.
+>[!Note]
+>In summary, arrays are a great choice for certain scenarios, particularly when dealing with a known, fixed number of elements and requiring fast access by index. However, their limitations in size flexibility and inefficiency in certain operations (like insertions and deletions in the middle) might lead one to choose other data structures, such as linked lists or dynamic arrays, for more complex or size-variable data storage needs.
