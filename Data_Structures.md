@@ -1,5 +1,5 @@
 
->[!Note]
+>[!Tip]
 >You don't write Algorithms, you write a program.
 The program is a data structure surrounded by algorithms that manipulate and modify the data inside the data structures.
 ## A data structure is a specialized format for organizing and storing data 
@@ -8,7 +8,6 @@ The program is a data structure surrounded by algorithms that manipulate and mod
 - thus improving performance and speed of access to data, read and written to storage units, and modifying them in the most appropriate manner. 
 - They help enhance performance in various algorithms and manage resources such as memory efficiently.
 
----
 
 > [!Note]
 > From a purpose to another, we may arrange data in different ways 
@@ -20,7 +19,7 @@ People noticed some data structures that repeat much So :
 - Hence, in real life projects, you build more complex data structures based on the common data structures.
 - Through this study, we learn how to build a data structure, Hence, we learn how to use them the commons properly
 
-> [!As mentioned]
+> [!Tip]
 > the common ones are already coded
 > - In C++, **STL library** provides its data structures 
 > - Java and C# name them: **Collections** 
@@ -32,16 +31,21 @@ People noticed some data structures that repeat much So :
 
 - are usually based on easy logic, Hence, overall data and operations are easy  
 - These are very good from teaching perspectives, We also use them much in reality
->[!Example]
+>[!Note]
+>**Examples**
+>
 > **Lists, Stack, Queues and Trees**
 
 ### Advanced Data structures
 
 - These were **more critical or complex scenarios** are needed.
->[!example]
+>[!Note]
+>**Examples**
+>
 > **Heaps, Hash tables and Red Black trees**
 
->[!info] Hash Table
+>[!important]
+>### Hash Table
 >Arrays uses key as integer. What if want the index be another data structure? or a string? **Hashtable does this magic**. One way is by converting a complex input to a single integer index and use it to return the target object.
 
 ---- 
@@ -57,7 +61,7 @@ People noticed some data structures that repeat much So :
 - Methods details (specific time/memory efficiency) 
 - Sub-methods that main methods need it
 
->[!example]
+>[!note]
 >#### What is a queue? 
 >- A data structure to enqueue and dequeue items respecting FIFO principle 
 >- This is a logical view (Abstract Data Type) 
