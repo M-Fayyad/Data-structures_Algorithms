@@ -55,16 +55,16 @@ public class Stack_Array_based<T>(int size)
             Top--;
         }
     }
-    public int Peek()
+    public T? Peek()
     {
         if (IsEmpty())
         {
             Console.WriteLine("Stack is empty");
-            return -1;
+            return default(T); // Returns null for reference types, default value for value types (e.g., 0 for int).
         }
         else
         {
-            return Top;
+            return Itmes[Top];
         }
     }
 }
